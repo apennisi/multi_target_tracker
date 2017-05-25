@@ -1,6 +1,6 @@
 # ATracker - Multi Target Tracker
 
-[![ATRACKER](https://img.youtube.com/vi/dP3vMgodW80/0.jpg)](https://www.youtube.com/watch?v=dP3vMgodW80)
+.center[[![ATRACKER](https://img.youtube.com/vi/dP3vMgodW80/0.jpg)](https://www.youtube.com/watch?v=dP3vMgodW80)]
 
 ATracker is a multi-target tracker based on cost computation. The costs are computed according to the Mahalanobis distance. Then, a Linear Assignment approach together with a Munkres algorithm have been used for assigning the current detections to the previous tracks.
 ATracker is able to manage the groups according to the appearance of the people as well as the costs based on the Mahalanobis distance.
