@@ -1,7 +1,7 @@
 # ATracker - Multi Target Tracker
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=dP3vMgodW8"  target="_blank"><img src="https://img.youtube.com/vi/dP3vMgodW80/0.jpg"/></a>
+<a href="https://www.youtube.com/watch?v=dP3vMgodW80"  target="_blank"><img src="https://img.youtube.com/vi/dP3vMgodW80/0.jpg"/></a>
 </p>
 <br>
 
