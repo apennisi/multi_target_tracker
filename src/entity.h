@@ -63,7 +63,7 @@ namespace ATracker
 	  const cv::Point2f& speed = getSpeed();
 	  const cv::Point2f& end_point = cv::Point(start_point.x + .5*speed.x, start_point.y + .5*speed.y);
 	  tools::Drawing::instance()->rectangle(r, color, img);
-	  cv::putText(img, label2string(), r.tl(), cv::FONT_HERSHEY_SIMPLEX,
+	  cv::putText(img, label2string().c_str(), r.tl(), cv::FONT_HERSHEY_SIMPLEX,
 		0.55, cv::Scalar(0, 255, 0), 2, CV_AA);
 	  if(direction) tools::Drawing::instance()->arrow(start_point, end_point, color, img);
 	  if(history) tools::Drawing::instance()->history(m_history, color, img);
